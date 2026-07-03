@@ -20,7 +20,7 @@ nav{
 }
 .container{
     width: 1920px;
-    margin: 0 auto;
+    
 }
 .nav_wrap{
     padding: 16px 220px;
@@ -62,6 +62,7 @@ input{
     display: flex;
     gap: 7px;
     box-shadow: #FFB800 1px 3px 7px;
+    cursor: pointer;
 }
 .hero{
     background-color: #FFB800;
@@ -74,11 +75,147 @@ input{
 
 h1{
     margin-top: 50px;
-    margin-left: 120px;
     font-size:88px ;
     color: antiquewhite;
 }
 .set_info{
-    margin-left: 120px;
+    
     color: rgb(68, 66, 66);
+}
+.hero_info{
+    margin-left: 220px;
+    width: 856px;
+    padding-left: 0;
+}
+.hero_id {
+    color: grey;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.order_type{
+    padding: 24px;
+    display: flex;
+    gap: 8px;
+}
+.hero_delivery{
+    width: 148px;
+    height: 38px;
+    background-color: #F172281A;
+    cursor: pointer;
+}
+.hero_delivery1{
+    width: 148px;
+    height: 38px;
+    cursor: pointer;
+    
+}
+.address_h{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 808px;
+    padding: 24px;
+    position: relative;
+}
+.add_custom{
+    width: 593px;
+    height: 49px;
+    background-color: #F5F5F5;
+    padding-left: 40px;
+    border-radius: 10px;
+   
+}
+.img_search{
+    position: absolute;
+    left: 40px;
+    top:48px
+}
+.hero_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 21px 48px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(to right, #FF7A7A, #F65900);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.discount_m{
+    background-color: white;
+}
+.discount_wrap{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.discount_card{
+    width: 357px;
+    height: 415px;
+    border-radius: 20px;
+    position: relative;
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+.discount_card:hover{
+    transform: scale(1.05);
+    box-shadow: black, 1px 3px 10px;
+}
+.discount_pic{
+    border-radius: 20px;
+}
+.dis_tag{
+    position: absolute;
+    display: flex;
+    left: 0px;
+    top:218px;
+    background-color: #FFB30E;
+    padding: 3px 15px;
+    border-radius: 0 20px 0 20px;
+}
+h3{
+    font-size: 68px;
+}
+.per_unit{
+    font-size: 35px;
+}
+.per_dir{
+    font-size: 22px;
+}
+.salade_name{
+    margin-top: 35px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.validity{
+    width: 205px;
+    color: #F17228;
+    background-color: #F1722833;
+    padding: 5px 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.instruction{
+    background: linear-gradient(to bottom, #f8db9c, #FDEDCA00);
+    text-align: center;
+}
+.inst_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.inst_title{
+    font-size: 43px;
+    font-weight: 700;
+}
+h4{
+    font-size: 22px;
+    font-weight: 700;
 }
