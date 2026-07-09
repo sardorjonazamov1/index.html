@@ -3,6 +3,12 @@
     padding:0;
     box-sizing: border-box;
 }
+:root{
+    --padding: 40px 0;
+    --btnpadding: 15px 70px;
+    --loccolor: #FFB30E;
+    --btnbackgroundcolor: #F17228;
+}
 
 nav{
     border-radius:0 0 15px 15px;
@@ -70,6 +76,8 @@ input{
 .hero_wrap{
     display: flex;
     text-align: center;
+   
+    
     
 }
 
@@ -147,12 +155,13 @@ h1{
 }
 .discount_m{
     background-color: white;
+    padding-bottom: 80px;
 }
 .discount_wrap{
     margin-top: 80px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 .discount_card{
@@ -208,14 +217,150 @@ h3{
 .inst_wrap{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 40px;
+    padding: 40px 220px;
 }
 .inst_title{
     font-size: 43px;
     font-weight: 700;
 }
+h2{
+    padding-top: 40px;
+}
 h4{
     font-size: 22px;
     font-weight: 700;
+}
+
+.popular_wrap{
+    padding:var(--padding);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.popular_title{
+    padding-top: 40px;
+   text-align: center;
+   font-size: 43px;
+   
+}
+.popular_card{
+    width: 284px;
+    transition: 0.2s ease-in-out;
+}
+.popular_card:hover{
+    transform: scale(1.05);
+}
+.popular_btn{
+    padding:var(--btnpadding);
+    background-color: var(--btnbackgroundcolor);
+    width: 100%;
+    border:none;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.pop_loc{
+    color: var(--loccolor);
+    font-size: 22px;
+    margin-top: 10px;
+}
+.popular_price{
+    font-size: 22px;
+    margin-top: 10px;
+}
+h5{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.rest{
+    padding: 40px 220px;
+}
+.rest_card{
+    width: 357px;
+    border-radius: 15px;
+    position: relative;
+}
+.rest_img{
+    border-radius: 15px;
+}
+.rest_wrap{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.rest_disc{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.hero_delivery2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 22px;
+    padding: 7px 15px;
+    background-color: #F17228;
+    color: #F5F5F5;
+    border-radius: 15px;
+}
+.hero_delivery3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 22px;
+    padding: 7px 15px;
+    background-color: #FFB30E;
+    color: #F5F5F5;
+    border-radius: 15px;
+    
+}
+.rest_brand{
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+    align-items: center;
+}
+.rest_name{
+    font-size: 22px;
+}
+.rest_rating{
+    font-size: 22px;
+    color: var(--btnbackgroundcolor);
+}
+.rest_status{
+    background-color: #F1722833;
+    color: #F17228;
+    padding: 7px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+.rest_statusopen{
+    background-color: #79B93C33;
+    color: #79B93C;
+    padding: 7px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+.rest_more{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(to right, #FFBA26, #FF9A0E);
+    font-size: 18px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px #F17228;
+    cursor: pointer;
 }
