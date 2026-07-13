@@ -297,8 +297,13 @@ h3 {
     border:none;
     cursor: pointer;
 }
+.featured_wrap{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 15px;
+
+}
 .featured_card{
-    background-color: aqua;
     width: 320px;
     border-radius: var(--borderradius);
     position: relative;
@@ -337,4 +342,41 @@ h3 {
     font-size: 20px;
     font-weight: 700;
 
+}
+.feat_rating{
+    color: var(--btncolor);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+}
+.featured_status{
+    border-radius: var(--borderradius);
+    padding: var(--btnpadding);
+    background-color: var(--btnback);
+    color: var(--btncolor);
+    width: 180px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.featured_statusopen{
+    border-radius: var(--borderradius);
+    padding: var(--btnpadding);
+    background-color: #79B93C33;
+    color: #79B93C;
+    width: 180px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.featured_btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: var(--btnpadding);
+    background-color: var(--btncolor);
+    border-radius: var(--borderradius);
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
 }
